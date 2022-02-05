@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cosmos</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header__title">Hello</h1>
+        </header>
+        <main class="main">
+            <section class="main__form form">
+                <form action="" method="post" class="form__container">
+                    <h2 class="form__title">For business enquiries please use the form below</h2>
+                    <div class="form__required">*Required</div>
+                    <fieldset class="form__fieldset">
+                        <input type="text" class="form__input" name="Name" required />
+                        <legend class="form__name-legend">Name*</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <input type="text" class="form__input" name="Company" required />
+                        <legend class="form__name-legend">Company*</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <input type="email" class="form__input" name="E-mail" required />
+                        <legend class="form__name-legend">E-mail*</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <input type="text" class="form__input" name="Phone" />
+                        <legend class="form__name-legend">Phone</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset">
+                        <input type="text" class="form__input" name="Subject" />
+                        <legend class="form__name-legend">Subject</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset_short-padding">
+                        <textarea class="form__input form__textarea" name="Message" required></textarea>
+                        <legend class="form__name-legend">Message*</legend>
+                    </fieldset>
+                    <fieldset class="form__fieldset_checkbox">
+                        <input type="checkbox" class="form__input-checkbox" id="checkbox-id" required />
+                        <label for="checkbox-id" class="form__name-legend form__name-legend_checkbox">I accept <a href="#" class="">Terms and Privacy Policy</a></label>
+                    </fieldset>
+                    <button type="submit" class="form__submit">Send</button>
+
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
